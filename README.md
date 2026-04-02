@@ -64,6 +64,17 @@ Raw files should be placed in `data/raw/` and are intentionally excluded from ve
 
 `Kaggle dataset -> raw CSV ingestion -> PostgreSQL -> feature engineering -> model training -> medal prediction`
 
+
+## Current Progress
+
+- Built PostgreSQL schema for athletes, countries, Olympic games, and results
+- Loaded 8,500 athlete result records into PostgreSQL
+- Created SQL feature-engineering views for:
+  - country medal strength
+  - sport medal rate
+  - athlete experience
+- Built a model-ready dataset for medal prediction
+
 ## Future Improvements
 
 - Add dashboard-based result exploration
